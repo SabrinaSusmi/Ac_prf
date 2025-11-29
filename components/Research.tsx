@@ -11,7 +11,7 @@ const publications = [
     venue:
       "arXiv preprint arXiv:2501.06805",
     link: "https://ieeexplore.ieee.org/document/XXXXXX", // Give the url susmi
-    img_path: "/images/profile_photo_2.jpg"
+    img_path: "/images/CardoSum.png"
   },
   {
     id: '2',
@@ -22,7 +22,7 @@ const publications = [
     venue:
       "arXiv preprint arXiv:2501.06805",
     link: "https://ieeexplore.ieee.org/document/XXXXXX", // Give the url susmi
-    img_path: "/images/profile_photo_2.jpg"
+    img_path: "/images/PARP.png"
   },
   {
     id: '3',
@@ -33,7 +33,7 @@ const publications = [
     venue:
       "Accepted at CLNLP 2025. arXiv preprint arXiv:2505.12273",
     link: "https://ieeexplore.ieee.org/document/XXXXXX", // Give the url susmi
-    img_path: "/images/profile_photo_2.jpg"
+    img_path: "/images/MTEval.png"
   },
   {
     id: '4',
@@ -44,7 +44,7 @@ const publications = [
     venue:
       "arXiv preprint arXiv:2511.18847",
     link: "https://ieeexplore.ieee.org/document/XXXXXX", // Give the url susmi
-    img_path: "/images/profile_photo_2.jpg"
+    img_path: "/images/FedOAP.png"
   },
   {
     id: '5',
@@ -55,7 +55,7 @@ const publications = [
     venue:
       "arXiv preprint arXiv:2410.07260",
     link: "https://ieeexplore.ieee.org/document/XXXXXX", // Give the url susmi
-    img_path: "/images/profile_photo_2.jpg"
+    img_path: "/images/Pancan_architecture.png"
   },
   {
     id: '6',
@@ -66,7 +66,7 @@ const publications = [
     venue:
       "In 2022 12th International Conference on Electrical and Computer Engineering (ICECE), pages 52–55, 2022. doi:10.1109/ICECE57408.2022.10089089.",
     link: "https://ieeexplore.ieee.org/document/XXXXXX", // Give the url susmi
-    img_path: "/images/profile_photo_2.jpg"
+    img_path: "/images/Organ.png"
   },
   {
     id: '7',
@@ -77,7 +77,7 @@ const publications = [
     venue:
       "arXiv preprint arXiv:2501.06805",
     link: "https://ieeexplore.ieee.org/document/XXXXXX", // Give the url susmi
-    img_path: "/images/profile_photo_2.jpg"
+    img_path: "/images/Pancan_FS.png"
   },
 ];
 
@@ -98,10 +98,10 @@ export default function Research() {
         {/* === Published === */}
         <div className="space-y-8">
           {publications.map((p) => (
-              <div key={p.id} className="flex flex-col-reverse md:flex-row gap-6">
+              <div key={p.id} className="flex flex-col-reverse md:flex-row gap-6 items-center">
                 <div className="flex w-30 h-20 md:w-36 md:h-24 overflow-hidden border-1 border-accent/30 shadow-card">
                   <img
-                    src="/images/profile_photo_2.jpg"
+                    src={p.img_path}
                     alt="Portrait of Sabrina Islam"
                     className="object-cover w-full h-full"
                   />
