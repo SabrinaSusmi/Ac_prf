@@ -16,11 +16,11 @@ const publications = [
   {
     id: '2',
     title:
-      "Rep3Net",
+      "Rep3Net: An Approach Exploiting Multimodal Representation for Molecular Bioactivity Prediction",
     authors:
       "Sabrina Islam, Md. Atiqur Rahman, Md. Bakhtiar Hasan, Md. Hasanul Kabir.",
     venue:
-      "arXiv preprint arXiv:2501.06805",
+      "arXiv preprint",
     link: "https://ieeexplore.ieee.org/document/XXXXXX", // Give the url susmi
     img_path: "/images/PARP.png"
   },
@@ -32,7 +32,7 @@ const publications = [
       "Md Atiqur Rahman, Sabrina Islam, and Mushfiqul Haque Omi.",
     venue:
       "Accepted at CLNLP 2025. arXiv preprint arXiv:2505.12273",
-    link: "https://ieeexplore.ieee.org/document/XXXXXX", // Give the url susmi
+    link: "https://arxiv.org/abs/2505.12273", // Give the url susmi
     img_path: "/images/MTEval.png"
   },
   {
@@ -43,7 +43,7 @@ const publications = [
       "Ishmam Tashdeed, Md. Atiqur Rahman, Sabrina Islam, and Md. Azam Hossain.",
     venue:
       "arXiv preprint arXiv:2511.18847",
-    link: "https://ieeexplore.ieee.org/document/XXXXXX", // Give the url susmi
+    link: "https://arxiv.org/abs/2511.18847", // Give the url susmi
     img_path: "/images/FedOAP.png"
   },
   {
@@ -54,7 +54,7 @@ const publications = [
       "Farzana Tabassum, Sabrina Islam, Siana Rizwan, Masrur Sobhan, Tasnim Ahmed, Sabbir Ahmed, and Tareque Mohmud Chowdhury.",
     venue:
       "arXiv preprint arXiv:2410.07260",
-    link: "https://ieeexplore.ieee.org/document/XXXXXX", // Give the url susmi
+    link: "https://arxiv.org/abs/2410.07260", // Give the url susmi
     img_path: "/images/Pancan_architecture.png"
   },
   {
@@ -65,7 +65,7 @@ const publications = [
       "Sabrina Islam, Farzana Tabassum, Siana Rizwan, and Tareque Mohmud Chowdhury.",
     venue:
       "In 2022 12th International Conference on Electrical and Computer Engineering (ICECE), pages 52–55, 2022. doi:10.1109/ICECE57408.2022.10089089.",
-    link: "https://ieeexplore.ieee.org/document/XXXXXX", // Give the url susmi
+    link: "https://ieeexplore.ieee.org/abstract/document/10089089/", // Give the url susmi
     img_path: "/images/Organ.png"
   },
   {
@@ -76,7 +76,7 @@ const publications = [
       "Tareque Mohmud Chowdhury, Farzana Tabassum, Sabrina Islam.",
     venue:
       "arXiv preprint arXiv:2501.06805",
-    link: "https://ieeexplore.ieee.org/document/XXXXXX", // Give the url susmi
+    link: "https://arxiv.org/abs/2501.06805", // Give the url susmi
     img_path: "/images/Pancan_FS.png"
   },
 ];
